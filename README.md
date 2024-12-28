@@ -1,6 +1,6 @@
 # Angular Guide
 
-Welcome to the **Angular Guide**! This repository is a comprehensive resource for learning and mastering Angular—a robust framework for building dynamic and scalable web applications. Whether you're new to Angular or looking to sharpen your skills, this guide has something for everyone.
+Welcome to the **Angular Guide**! This repository is a comprehensive resource for learning and mastering Angular robust framework for building dynamic and scalable web applications. Whether you're new to Angular or looking to sharpen your skills, this guide has something for everyone.
 
 ![Angular Logo](https://angular.io/assets/images/logos/angular/angular.svg)
 
