@@ -1,0 +1,20 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="email">Email:</label>
+      <input id="email" formControlName="email" type="email" class="form-control" />
+      <small *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+        Email is required and must be valid.
+      </small>
+    </div>
+  
+    <div class="mb-3">
+      <label for="password">Password:</label>
+      <input id="password" formControlName="password" type="password" class="form-control" />
+      <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+        Password must be at least 6 characters.
+      </small>
+    </div>
+  
+    <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Submit</button>
+  </form>
+  
